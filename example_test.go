@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func Example_Connective() {
+func Example_connective() {
 	// generate
 	var data []float64
 	for i := 0.0; i <= 360; i += 5 {
@@ -36,7 +36,7 @@ func Example_Connective() {
 
 }
 
-func Example_Point() {
+func Example_point() {
 	// generate
 	var data []float64
 	for i := 0.0; i <= 360; i += 5 {
